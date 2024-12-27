@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'GROBOLD';
+    src: url(FONTS/GROBOLD.ttf);
+}
+
+@font-face {
+    font-family: 'monof55';
+    src: url(FONTS/monof55.ttf);
+}
+
+.sec6{
+    background-color: #174783;
+    padding-top: 90px;
+    width: 100%;
+
+    h2{
+        font-family: 'GROBOLD', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #EEF7F7;
+        margin-top: 0; 
+        margin-bottom: 70PX;  
+    }
+    
+.container6-1{
+    
+}
+
+}
+.containerr{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 30%;
+        object-fit: cover;
+       
+    }
+}
+.containerr:hover .card{
+    filter: blur(8px);
+    transform: scale(1);
+    opacity: 0.5;
+    transition: all 0.5s;
+    }
+    .containerr .card:hover {
+    filter: none; 
+    transform: scale(1.1); 
+    z-index: 2;
+    opacity: 1;
+    }
+.SEC7{
+    background-color: #174783;
+    padding-top: 120PX;
+    height: 900PX;
+
+    H2{
+        margin-top: 0;
+        color: #EEF7F7;
+        font-family: 'GROBOLD';
+        font-size: 40PX;
+        text-align: center;
+        margin-bottom: 80PX;
+    }
+}
+.sec7-cont{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-sec7{
+    text-align: center;
+    height: 500PX;
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 2%;
+    background-color: #EEF7F7;
+    padding-top: 50PX;
+    background-image: url(IMG/BG2.png);
+    background-size: 1000px 1000px;
+    P{
+        font-family: 'monof55';
+        color: #174783;
+        font-size: 16PX;
+        margin-top: 50PX;
+        width: 60%;
+        margin: 50px 20% 0 20% ;
+        
+    }
+}
+.sec8{
+    background-color: #EEF7F7;
+    background-image: url(IMG/BG2.png) ;
+    width: 100%;
+    height: 550px;
+    background-size: 2000px 2000px;
+    padding: 100px 10% 0 10% ;
+    h2{
+        margin-top: 0;
+        color: #174783;
+        font-family: 'GROBOLD';
+        font-size: 40PX;
+       
+    }
+    p{
+        font-family: 'monof55';
+        color: #174783;
+        font-size: 23PX;
+        text-align: center;
+        margin-top: 50px;
+        width: 60%;
+
+    }
+    img{
+        margin-left: 15%;
+        margin-top: -30px;
+    }
+}
+.seccc{
+    display: flex;
+}
+.backgoundved{
+    width: 100%;
+}
+
+.cont{
+    position: relative;
+}
+.sec9{
+    position: absolute;
+    background-color: #eef7f7a3;
+    width: 70%;
+    margin: 150px 15% 0 15%;
+    text-align: center;
+    border-radius: 30px;
+    height: 550px;
+    padding: 30px 10% 0 10%;
+    h2{
+        font-family: 'GROBOLD';
+        color: #174783;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    p{
+        font-family: 'monof55';
+        font-size: 20px;
+        margin-bottom: 60PX;
+        color: #F06084;
+        width: 90%;
+        text-align: center;
+        padding-left:10% ;
+    }
+    label{
+        font-family: 'GROBOLD';
+        font-size: 30px;
+        margin-bottom: 90px;
+        color: #174783;
+    }
+    input{
+        width: 60%;
+        padding: 10px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        border: none;
+    }
+    button{
+        background-color: #F06084;
+        margin-top: 50px;
+        width: 20%;
+        margin:0px 40% 0 40% ;
+        height: 50px;
+        border: none;
+        font-family: 'GROBOLD';
+        font-size: 22px;
+        border-radius: 20px;
+        color: #EEF7F7;
+    }
+
+    
+}
+.RO555{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+.sec1-txt{
+    text-align: center;
+    
+    padding: 40px 10% 30px 10%;
+    h1{
+        font-family: 'GROBOLD';
+        color: #174783;
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+    p{
+        font-family: 'monof55';
+        font-size: 20px;
+        margin-top: -70px;
+        color: #174783;
+        width: 90%;
+        text-align: center;
+        padding-left:10% ;
+        
+    }
+}
+.sec10{
+    width: 100%;
+    background-color: #EEF7F7;
+    padding: 90PX 10% 70PX 10%;
+    H2{
+        font-family: 'GROBOLD';
+        color: #174783;
+        font-size: 40px;
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 0px;
+        
+    }
+}
+.MAP{
+    margin-top: -300PX;
+}
+footer{
+    background-color: #174783;
+    display: flex;
+    padding: 20PX 5% 0 5%;
+    
+    
+}
+.footer-text{
+    color: #EEF7F7;
+    font-family:'monof55';
+    font-size: 20px;
+    margin-left: 30%;
+    padding-top: 40PX;
+    
+
+}
+.logo-footer{
+    width: 15%;
+}
